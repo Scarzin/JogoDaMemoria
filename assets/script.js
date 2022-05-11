@@ -4,6 +4,6 @@ function flipCard() {
     this.classList.toggle('flip');
 };
 
-cards.forEach((card)=> {
+cards.forEach((card)=> 
 card.addEventListener('click', flipCard)
-});
+);

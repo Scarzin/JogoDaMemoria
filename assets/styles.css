@@ -47,4 +47,13 @@ body {
     position: absolute;
     border-radius: 5px;
     background: white;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    transform: rotateY(180deg);
+}
+
+.card.flip {
+    transform: rotateY(180deg);
 }
